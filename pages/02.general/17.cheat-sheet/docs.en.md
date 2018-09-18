@@ -158,7 +158,7 @@ document — Whole exception. This option completely disables blocking for corre
 Introduction into CSS selectors (https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors)
 
 * [Cosmetic rules](#cosmetic-rules)
-    * Introduction into CSS selectors (https://adblockplus.org/filter-cheatsheet#elementselection)
+    * Introduction into [CSS selectors](https://adblockplus.org/filter-cheatsheet#elementselection)
 
     Selector | Description
     ------------ | -------------
