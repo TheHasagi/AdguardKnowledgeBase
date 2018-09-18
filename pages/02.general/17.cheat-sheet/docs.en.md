@@ -187,9 +187,6 @@ Introduction into CSS selectors (https://developer.mozilla.org/en-US/docs/Learn/
 
 </details>
 
-## Element selection
-
-<img src="https://github.com/TheHasagi/AdguardKnowledgeBase/blob/master/pages/02.general/17.cheat-sheet/images/Elemsel.png"
-width="935">
+>
 
 ! End text
