@@ -157,6 +157,42 @@ document — Whole exception. This option completely disables blocking for corre
 
 Introduction into CSS selectors (https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors)
 
+## [Cosmetic rules](https://kb.adguard.com/general/how-to-create-your-own-ad-filters#cosmetic-rules-1)
+
+Introduction into CSS selectors (https://adblockplus.org/filter-cheatsheet#elementselection)
+Example 1: Element hiding rule for a particular domain
+Example 2: Element hiding exception rule
+Example 3: CSS rule
+
+* [Cosmetic rules](#cosmetic-rules)
+    * Introduction into CSS selectors (https://adblockplus.org/filter-cheatsheet#elementselection)
+
+    Selector | Description
+    ------------ | -------------
+    div[class="banners"] | Matches the element with the unique class `banners`: ![image](https://user-images.githubusercontent.com/8361299/27262479-6515da62-5460-11e7-8ca8-a097e369787b.png)
+    #banners | Matches all elements with ID `banners`:  ![image](https://user-images.githubusercontent.com/8361299/27262517-b9b070dc-5460-11e7-95ba-ca799745d007.png)
+    div[class^="advert"] | Matches div elements that start with class `advert`: ![image](https://user-images.githubusercontent.com/8361299/27262695-e048012a-5464-11e7-8a2b-b2996426803e.png)
+    div[class$="banners_ads"] | Matches div elements that end with class `banners_ads`: ![image](https://user-images.githubusercontent.com/8361299/27262734-b0f3ced0-5465-11e7-9f54-e7accd58e60f.png)
+    a[href="http://example.com/"] | Matches links to http://example.com/: ![image](https://user-images.githubusercontent.com/8361299/27262625-5d369fc2-5463-11e7-8f9d-1a85e26ab91a.png)
+    a[href^="http://example.com/"] | Matches links to any pages hosted on http://example.com/: ![image](https://user-images.githubusercontent.com/8361299/27262644-b8a874fc-5463-11e7-974a-82fe90d54338.png)
+
+
+
+    * Example 1: Element hiding rule for a particular domain
+`example.com##div[class="adverts"]`
+    * Example 2: Element hiding exception rule
+`example.com#@#div[class="adverts"]`
+    * Example 3: CSS rule
+       * Remove backgroung image:
+`example.com#$#body { background: none!important; }`
+       * Change element height for avoid primitive ad blocking detection:
+`example.com#$#div[id^="ad_"] { height: 1px!important; }`
+
+
+
+</details>
+
+
 Example 1: Element hiding rule for a particular domain
 
 Example 2: Element hiding exception rule
