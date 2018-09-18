@@ -165,7 +165,7 @@ Introduction into CSS selectors (https://developer.mozilla.org/en-US/docs/Learn/
     Selector | Description
     ------------ | -------------
     div[class="banners"] | Matches the element with the unique class `banners`: ![image](https://user-images.githubusercontent.com/8361299/27262479-6515da62-5460-11e7-8ca8-a097e369787b.png)
-    #banners | Matches all elements with ID `banners`: ![image](https://user-images.githubusercontent.com/8361299/27262517-b9b070dc-5460-11e7-95ba-ca799745d007.png)
+    #banners | Matches all elements with ID `banners`:    ![image](https://user-images.githubusercontent.com/8361299/27262517-b9b070dc-5460-11e7-95ba-ca799745d007.png)
     div[class^="advert"] | Matches div elements that start with class `advert`: ![image](https://user-images.githubusercontent.com/8361299/27262695-e048012a-5464-11e7-8a2b-b2996426803e.png)
     div[class$="banners_ads"] | Matches div elements that end with class `banners_ads`: ![image](https://user-images.githubusercontent.com/8361299/27262734-b0f3ced0-5465-11e7-9f54-e7accd58e60f.png)
     a[href="http://example.com/"] | Matches links to http://example.com/: ![image](https://user-images.githubusercontent.com/8361299/27262625-5d369fc2-5463-11e7-8f9d-1a85e26ab91a.png)
@@ -187,6 +187,7 @@ Introduction into CSS selectors (https://developer.mozilla.org/en-US/docs/Learn/
 
 </details>
 
+## Element selection
 
 <img src="https://github.com/TheHasagi/AdguardKnowledgeBase/blob/master/pages/02.general/17.cheat-sheet/images/Elemsel.png"
 width="935">
