@@ -6,7 +6,6 @@ taxonomy:
 visible: false
 ---
 
-# Cheat sheet
 
  This is a cheat sheet that explains how to easily manage blocking rules and elements to hide. More detailed information you can find in this [article](https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters)
 
@@ -24,7 +23,7 @@ This rule blocks:
 
  http://example.com/banner/img/ad1 
 
-! explanation text
+
 
 This rule doesn't block:
 
@@ -34,7 +33,7 @@ http://example.com/banner/ads/imgraph
 
 http://example.com/banner/ads/img.gif
 
-! explanation text
+
 ----------------- ----------------- ----------------- ----------------- 
 
 
@@ -119,7 +118,7 @@ For additional explanation you should use this "!" symbol at the beginning of th
 
 @@||ads.example.com/notbanner^$~script
 
-⋅⋅* Rule parts
+#### Rule parts
 
 @@ — Exception marker. Rules starting like this are exceptions, they will override blocking rules. 
 
@@ -137,7 +136,7 @@ $ — option separator. This character indicates that the following text defines
 
 @@||example.com^$document
 
-⋅⋅* Rule parts
+#### Rule parts
 
 @@ — Exception marker. Rules starting like this are exceptions, they will override blocking rules.
 
@@ -154,6 +153,8 @@ document — Whole exception. This option completely disables blocking for corre
 ----------------- ----------------- ----------------- ----------------- 
 
 ## [Cosmetic rules](https://kb.adguard.com/general/how-to-create-your-own-ad-filters#cosmetic-rules-1)
+
+! Intro text
 
 Introduction into CSS selectors (https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors)
 
