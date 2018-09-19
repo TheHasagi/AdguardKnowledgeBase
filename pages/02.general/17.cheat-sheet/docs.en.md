@@ -49,6 +49,8 @@ The most simple rules are so-called "Basic rules". They are used to block reques
 
 ### Blocking by domain name
 
+! Intro text
+
 ||example.org^
 
 <img src="https://github.com/TheHasagi/AdguardKnowledgeBase/blob/master/pages/02.general/17.cheat-sheet/images/Blocking%20by%20domain%20name.PNG" width="750">
@@ -71,6 +73,7 @@ http://example.com/redirect/http://ads.example.com/
 
 ! Intro next
 
+
  <img src="https://github.com/TheHasagi/AdguardKnowledgeBase/blob/master/pages/02.general/17.cheat-sheet/images/Address%20parts.png" width="750">
 
 This rule blocks:
@@ -91,15 +94,9 @@ http://example.com/banner/ads/imgraph
 
 http://example.com/banner/ads/img.gif
 
+### Unblocking particular requests
 
------------------ ----------------- ----------------- ----------------- 
-
-
-
-
-
-
-## Basic exception rules
+@@||example.org/banner
 
 This is a basic exception rules that should guide you to understand the regularity and principles of exceptions.
 
@@ -121,10 +118,14 @@ $ — option separator. This character indicates that the following text defines
 
 ~script — Restriction by content type. This type option prevents the exception from being applied to scripts.
 
------------------ ----------------- ----------------- ----------------- 
+### Unblocking an entire website
+
+Sometimes, if you need to unblock a particular website from a to z you should use this example:
+
+@@||example.org^$document
 
 													
-
+----------------- ----------------- ----------------- ----------------- 
 
 
 ## Options in blocking rules
