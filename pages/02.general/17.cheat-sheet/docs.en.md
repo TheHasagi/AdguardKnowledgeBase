@@ -27,19 +27,19 @@ For additional explanation you should use this "!" symbol at the beginning of th
 
 <img src="https://github.com/TheHasagi/AdguardKnowledgeBase/blob/master/pages/02.general/17.cheat-sheet/images/Options%20in%20blocking%20rules.png" width="750">
 
-||ads.example.com^$script,image,domain=example.com|~boo.example.com is a Rule parts
+* ||ads.example.com^$script,image,domain=example.com|~boo.example.info is a rule parts
 
-|| — Matching the beginning of an address. http://, https://, ws://, wss:// at once;
+* || — Matching the beginning of an address. http://, https://, ws://, wss:// at once
 
-ads.example.com — Verbatim text. This text must be present in the address to be blocked;
+* ads.example.com — Verbatim text. This text must be present in the address to be blocked
 
-^ — Separator. The address must either end here or a separator character like ? or / has to follow;
+* ^ — Separator. The address must either end here or a separator character like ? or / has to follow
 
-$ — option separator. This character indicates that the following text defines filter option;
+* $ — option separator. This character indicates that the following text defines filter option
 
-script, image — Restriction by content type. Type options define request types to be blocked.
+* script, image — Restriction by content type. Type options define request types to be blocked
 
-domain — Domain option. Limits the rule application area to a list of domains (and their subdomains).
+* domain — Domain option. Limits the rule application area to a list of domains (and their subdomains)
 
 
 ## Basic rules
@@ -105,17 +105,17 @@ Example 1: Exception for particular requests
 
 Rule parts
 
-@@ — Exception marker. Rules starting like this are exceptions, they will override blocking rules;
+* @@ — Exception marker. Rules starting like this are exceptions, they will override blocking rules;
 
-|| — Matching the beginning of an address. http://, https://, ws://, wss:// at once;
+* || — Matching the beginning of an address. http://, https://, ws://, wss:// at once;
 
-ads.example.com/notbanner — Verbatim text. This text must be present in the address to be blocked;
+* ads.example.com/notbanner — Verbatim text. This text must be present in the address to be blocked;
 
-^ — Separator. The address must either end here or a separator character like ? or / has to follow;
+* ^ — Separator. The address must either end here or a separator character like ? or / has to follow;
 
-$ — option separator. This character indicates that the following text defines filter option;
+* $ — option separator. This character indicates that the following text defines filter option;
 
-~script — Restriction by content type. This type option prevents the exception from being applied to scripts.
+* ~script — Restriction by content type. This type option prevents the exception from being applied to scripts.
 
 ### Unblocking an entire website
 
@@ -134,17 +134,17 @@ Sometimes, if you need to unblock a particular website from a to z you should us
 ||ads.example.com^$script,image,domain=example.com|~foo.example.info
 Rule parts
 
-|| — Matching the beginning of an address. http://, https://, ws://, wss:// at once;
+* || — Matching the beginning of an address. http://, https://, ws://, wss:// at once;
 
-ads.example.com — Verbatim text. This text must be present in the address to be blocked;
+* ads.example.com — Verbatim text. This text must be present in the address to be blocked;
 
-^ — Separator. The address must either end here or a separator character like ? or / has to follow;
+* ^ — Separator. The address must either end here or a separator character like ? or / has to follow;
 
-$ — option separator. This character indicates that the following text defines filter option;
+* $ — option separator. This character indicates that the following text defines filter option;
 
-script, image — Restriction by content type. Type options define request types to be blocked.
+* script, image — Restriction by content type. Type options define request types to be blocked.
 
-domain — Domain option. Limits the rule application area to a list of domains (and their subdomains).
+* domain — Domain option. Limits the rule application area to a list of domains (and their subdomains).
 
 
 ----------------- ----------------- ----------------- ----------------- 
@@ -160,17 +160,17 @@ domain — Domain option. Limits the rule application area to a list of domains 
 
 #### Rule parts
 
-@@ — Exception marker. Rules starting like this are exceptions, they will override blocking rules. 
+* @@ — Exception marker. Rules starting like this are exceptions, they will override blocking rules. 
 
-|| — Matching the beginning of an address. http://, https://, ws://, wss:// at once.
+* || — Matching the beginning of an address. http://, https://, ws://, wss:// at once.
 
-ads.example.com/notbanner — Verbatim text. This text must be present in the address to be blocked.
+* ads.example.com/notbanner — Verbatim text. This text must be present in the address to be blocked.
 
-^ — Separator. The address must either end here or a separator character like ? or / has to follow.
+* ^ — Separator. The address must either end here or a separator character like ? or / has to follow.
 
-$ — option separator. This character indicates that the following text defines filter option.
+* $ — option separator. This character indicates that the following text defines filter option.
 
-~script — Restriction by content type. This type option prevents the exception from being applied to scripts.
+* ~script — Restriction by content type. This type option prevents the exception from being applied to scripts.
 
 ## Exception for an entire site
 
@@ -178,17 +178,17 @@ $ — option separator. This character indicates that the following text defines
 
 #### Rule parts
 
-@@ — Exception marker. Rules starting like this are exceptions, they will override blocking rules.
+* @@ — Exception marker. Rules starting like this are exceptions, they will override blocking rules.
 
-|| — Matching the beginning of an address. http://, https://, ws://, wss:// at once.
+* || — Matching the beginning of an address. http://, https://, ws://, wss:// at once.
 
-ads.example.com/notbanner — Verbatim text. This text must be present in the address to be blocked.
+* ads.example.com/notbanner — Verbatim text. This text must be present in the address to be blocked.
 
-^ — Separator. The address must either end here or a separator character like ? or / has to follow.
+* ^ — Separator. The address must either end here or a separator character like ? or / has to follow.
 
-$ — option separator. This character indicates that the following text defines filter option.
+* $ — option separator. This character indicates that the following text defines filter option.
 
-document — Whole exception. This option completely disables blocking for corresponding pages.
+* document — Whole exception. This option completely disables blocking for corresponding pages.
 
 ----------------- ----------------- ----------------- ----------------- 
 
