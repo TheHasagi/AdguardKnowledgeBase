@@ -9,6 +9,64 @@ visible: false
 
  This is a cheat sheet that explains how to easily manage blocking rules and elements to hide. More detailed information you can find in this [article](https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters)
 
+### Tools you might need
+
+An irreplaceable tool to work primarily is the browser, the best way to do this is to use Google Chrome / Canary / Firefox and Dev Tools, which are built into them.
+
+* Browser Developer Tools ([Chrome](https://www.google.com/chrome/?), [Firefox](https://www.mozilla.org/ru/firefox/new/), [Edge](https://support.microsoft.com/ru-ru/help/4027741/windows-get-microsoft-edge), [Safari](https://www.apple.com/ru/safari/))
+* AdGuard Filtering Log
+
+## Comments
+
+For additional explanation you should use this "!" symbol at the beginning of the rule that indicates a comment (!This is a comment)
+
+<img src="https://github.com/TheHasagi/AdguardKnowledgeBase/blob/master/pages/02.general/17.cheat-sheet/images/Comment.PNG" width="700">
+
+
+## Options in blocking rules
+
+<img src="https://github.com/TheHasagi/AdguardKnowledgeBase/blob/master/pages/02.general/17.cheat-sheet/images/Options%20in%20blocking%20rules.png" width="750">
+
+||ads.example.com^$script,image,domain=example.com|~foo.example.info
+Rule parts
+
+|| — Matching the beginning of an address. http://, https://, ws://, wss:// at once;
+
+ads.example.com — Verbatim text. This text must be present in the address to be blocked;
+
+^ — Separator. The address must either end here or a separator character like ? or / has to follow;
+
+$ — option separator. This character indicates that the following text defines filter option;
+
+script, image — Restriction by content type. Type options define request types to be blocked.
+
+domain — Domain option. Limits the rule application area to a list of domains (and their subdomains).
+
+
+## Basic rules
+
+The most simple rules are so-called "Basic rules". They are used to block requests to specific URLs. Or to unblock it, if there is a special marker "@@" at the beginning of the rule. The basic principle for this type of rules is quite simple: you have to specify the address and additional parameters that limit or expand the scope of the rule.
+
+### Blocking by domain name
+
+||example.org^
+
+<img src="https://github.com/TheHasagi/AdguardKnowledgeBase/blob/master/pages/02.general/17.cheat-sheet/images/Blocking%20by%20domain%20name.PNG" width="750">
+
+This rule blocks:
+
+http://ads.example.com/foo.gif
+
+http://server1.ads.example.com/foo.gif
+
+https://ads.example.com:8000/
+
+This rule doesn't block:
+										
+http://ads.example.com.ua/foo.gif
+
+http://example.com/redirect/http://ads.example.com/	
+
 ## Blocking by address parts
 
 ! Intro next
@@ -38,23 +96,7 @@ http://example.com/banner/ads/img.gif
 
 
 
-## Blocking by a domain name
 
-<img src="https://github.com/TheHasagi/AdguardKnowledgeBase/blob/master/pages/02.general/17.cheat-sheet/images/Blocking%20by%20domain%20name.PNG" width="750">
-
-This rule blocks:
-
-http://ads.example.com/foo.gif
-
-http://server1.ads.example.com/foo.gif
-
-https://ads.example.com:8000/
-
-This rule doesn't block:
-										
-http://ads.example.com.ua/foo.gif
-
-http://example.com/redirect/http://ads.example.com/	
 
 
 ## Basic exception rules
@@ -107,11 +149,7 @@ domain — Domain option. Limits the rule application area to a list of domains 
 
 ----------------- ----------------- ----------------- ----------------- 
 
-## Comments
 
-For additional explanation you should use this "!" symbol at the beginning of the rule that indicates a comment (!This is a comment)
-
-<img src="https://github.com/TheHasagi/AdguardKnowledgeBase/blob/master/pages/02.general/17.cheat-sheet/images/Comment.PNG" width="700">
 
 
 ----------------- ----------------- ----------------- ----------------- 
