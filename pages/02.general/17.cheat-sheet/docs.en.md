@@ -38,7 +38,7 @@ http://example.com/banner/ads/img.gif
 
 
 
-## Blocking by domain name
+## Blocking by a domain name
 
 <img src="https://github.com/TheHasagi/AdguardKnowledgeBase/blob/master/pages/02.general/17.cheat-sheet/images/Blocking%20by%20domain%20name.PNG" width="750">
 
@@ -58,6 +58,8 @@ http://example.com/redirect/http://ads.example.com/
 
 
 ## Basic exception rules
+
+This is a basic exception rules that should guide you to understand the regularity and principles of exceptions.
 
 Example 1: Exception for particular requests
 
