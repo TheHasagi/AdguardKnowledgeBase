@@ -27,8 +27,7 @@ For additional explanation you should use this "!" symbol at the beginning of th
 
 <img src="https://github.com/TheHasagi/AdguardKnowledgeBase/blob/master/pages/02.general/17.cheat-sheet/images/Options%20in%20blocking%20rules.png" width="750">
 
-||ads.example.com^$script,image,domain=example.com|~foo.example.info
-Rule parts
+||ads.example.com^$script,image,domain=example.com|~boo.example.com is a Rule parts
 
 || — Matching the beginning of an address. http://, https://, ws://, wss:// at once;
 
