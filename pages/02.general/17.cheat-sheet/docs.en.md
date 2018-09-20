@@ -122,11 +122,27 @@ Rule parts
 ## [Cosmetic rules](https://kb.adguard.com/general/how-to-create-your-own-ad-filters#cosmetic-rules-1)
 
 
-Cosmetic rules are designed to help in case you are hindered by an item displayed on the page. They also help to hide certain elements. In order to use cosmetic rules you need to have an understanding of what CSS is.
+As the name suggests, cosmetic rules are used not for blocking ad requests, but for changing the page appearance. They can hide the elements or even convert the overall style of pages.
 
-* [Cosmetic rules](#cosmetic-rules)
-   
-   Introduction into [CSS selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors)
+Work with cosmetic rules requires the basic knowledge of HTML and CSS. So, if you want to learn how to make such rules, we recommend to get acquainted with this [documentation](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors).
+
+
+### Element hiding
+
+ Sometimes you will find advertisements that can't be blocked because they are embedded as text in the web page itself. If you look at the source code of the web page you might find something like this:
+ 
+
+
+<div class="textad">
+Cheapest apples, only here and now!
+</div>
+<div id="sponsorad">
+Really cheap apples, click here!
+</div>
+<textad>
+Only here you get the best apples!
+</textad>
+  
 
     Selector | Description
     ------------ | -------------
@@ -148,6 +164,16 @@ Cosmetic rules are designed to help in case you are hindered by an item displaye
 `example.com#$#body { background: none!important; }`
        * Change element height for avoid primitive ad blocking detection:
 `example.com#$#div[id^="ad_"] { height: 1px!important; }`
+
+
+### Frequently used selectors
+
+Table with examples of the following selectors:
+
+* class (
+* id
+* tag name
+* attribute selectors
 
 
 
