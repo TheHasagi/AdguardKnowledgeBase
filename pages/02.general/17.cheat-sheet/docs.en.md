@@ -18,7 +18,9 @@ An irreplaceable tool to work primarily is the browser, the best way to do this 
 
 ## Comments
 
-For additional explanation you should use this "!" symbol at the beginning of the rule that indicates a comment (!This is a comment)
+For additional explanation you should use this exclamation point "!" at the beginning of the rule that indicates a comment.
+
+* ! Don't mind if I do - is a comment.
 
 <img src="https://github.com/TheHasagi/AdguardKnowledgeBase/blob/master/pages/02.general/17.cheat-sheet/images/Comment.PNG" width="700">
 
@@ -47,9 +49,8 @@ The most simple rules are so-called "Basic rules". They are used to block reques
 
 ### Blocking by domain name
 
-! Intro text
 
-||example.org^
+The basic rules are designed to block unwanted sites on their own or add an exception. Let's do an example:
 
 <img src="https://github.com/TheHasagi/AdguardKnowledgeBase/blob/master/pages/02.general/17.cheat-sheet/images/Blocking%20by%20domain%20name.PNG" width="750">
 
@@ -67,10 +68,8 @@ http://ads.example.com.ua/foo.gif
 
 http://example.com/redirect/http://ads.example.com/	
 
+
 ## Blocking by address parts
-
-! Intro next
-
 
  <img src="https://github.com/TheHasagi/AdguardKnowledgeBase/blob/master/pages/02.general/17.cheat-sheet/images/Address%20parts.png" width="750">
 
@@ -122,7 +121,8 @@ Rule parts
 
 ## [Cosmetic rules](https://kb.adguard.com/general/how-to-create-your-own-ad-filters#cosmetic-rules-1)
 
-! Intro text
+
+Cosmetic rules are designed to help in case you are hindered by an item displayed on the page. They also help to hide certain elements. In order to use cosmetic rules you need to have an understanding of what CSS is.
 
 * [Cosmetic rules](#cosmetic-rules)
    
@@ -155,4 +155,4 @@ Rule parts
 
 >
 
-! End text
+
