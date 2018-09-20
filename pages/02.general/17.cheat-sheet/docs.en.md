@@ -146,11 +146,14 @@ Work with cosmetic rules requires the basic knowledge of HTML and CSS. So, if yo
 
     * Example 1: Element hiding rule for a particular domain
 `example.com##div[class="adverts"]`
+
     * Example 2: Element hiding exception rule
 `example.com#@#div[class="adverts"]`
+
     * Example 3: CSS rule
        * Remove backgroung image:
 `example.com#$#body { background: none!important; }`
+
        * Change element height for avoid primitive ad blocking detection:
 `example.com#$#div[id^="ad_"] { height: 1px!important; }`
 
