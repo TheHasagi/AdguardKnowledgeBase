@@ -131,27 +131,16 @@ Work with cosmetic rules requires the basic knowledge of HTML and CSS. So, if yo
 
  Sometimes you will find advertisements that can't be blocked because they are embedded as text in the web page itself. If you look at the source code of the web page you might find something like this:
  
+<img src="https://github.com/TheHasagi/AdguardKnowledgeBase/blob/master/pages/02.general/17.cheat-sheet/images/%23%23.png" width="750">
 
-
-<div class="textad">
-Cheapest apples, only here and now!
-</div>
-<div id="sponsorad">
-Really cheap apples, click here!
-</div>
-<textad>
-Only here you get the best apples!
-</textad>
+  
   
 
-    Selector | Description
-    ------------ | -------------
-    div[class="banners"] | Matches the element with the unique class `banners`: ![image](https://user-images.githubusercontent.com/8361299/27262479-6515da62-5460-11e7-8ca8-a097e369787b.png)
-    #banners | Matches all elements with ID `banners`:    ![image](https://user-images.githubusercontent.com/8361299/27262517-b9b070dc-5460-11e7-95ba-ca799745d007.png)
-    div[class^="advert"] | Matches div elements that start with class `advert`: ![image](https://user-images.githubusercontent.com/8361299/27262695-e048012a-5464-11e7-8a2b-b2996426803e.png)
-    div[class$="banners_ads"] | Matches div elements that end with class `banners_ads`: ![image](https://user-images.githubusercontent.com/8361299/27262734-b0f3ced0-5465-11e7-9f54-e7accd58e60f.png)
-    a[href="http://example.com/"] | Matches links to http://example.com/: ![image](https://user-images.githubusercontent.com/8361299/27262625-5d369fc2-5463-11e7-8f9d-1a85e26ab91a.png)
-    a[href^="http://example.com/"] | Matches links to any pages hosted on http://example.com/: ![image](https://user-images.githubusercontent.com/8361299/27262644-b8a874fc-5463-11e7-974a-82fe90d54338.png)
+   Selector | Description
+------------ | -------------
+##banner | Matches the element with the unique id `banner`: ![example domain 2017-06-14 11-34-20](https://user-images.githubusercontent.com/5947035/27123120-8b07e058-50f5-11e7-85a0-862d8f8b45e5.png)
+.banner | Matches all elements with class `banner`:  ![example domain 2017-06-14 11-33-30](https://user-images.githubusercontent.com/5947035/27123139-9ca6ce6e-50f5-11e7-804b-1891953bf668.png)
+
 
 
 
