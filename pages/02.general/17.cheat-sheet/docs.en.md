@@ -158,19 +158,4 @@ Work with cosmetic rules requires the basic knowledge of HTML and CSS. So, if yo
 `example.com#$#div[id^="ad_"] { height: 1px!important; }`
 
 
-### Frequently used selectors
-
-Table with examples of the following selectors:
-
-* class (
-* id
-* tag name
-* attribute selectors
-
-
-
-</details>
-
->
-
 
