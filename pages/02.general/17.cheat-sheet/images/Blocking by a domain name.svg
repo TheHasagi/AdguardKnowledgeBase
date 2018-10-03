@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="731px" height="252px" viewBox="0 0 731 252" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Blocking by a domain name</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-390.000000, -247.000000)">
+            <g id="Blocking-by-a-domain-name" transform="translate(390.000000, 247.000000)">
+                <text id="||-—-matching-the-be" font-family="SegoeUI-Bold, Segoe UI" font-size="16" font-weight="bold">
+                    <tspan x="33" y="230" fill="#67B279">||</tspan>
+                    <tspan x="43.4375" y="230" font-family="SegoeUI, Segoe UI" font-weight="normal" fill="#4D4D4D"> —  matching the beginning of an address. </tspan>
+                    <tspan x="348.9375" y="230" fill="#4D4D4D">http://, https://, ws://, wss://</tspan>
+                    <tspan x="566.96875" y="230" font-family="SegoeUI, Segoe UI" font-weight="normal" fill="#4D4D4D"> at once</tspan>
+                </text>
+                <text id="Learn-more-Copy" font-family="SegoeUI, Segoe UI" font-size="16" font-weight="normal" fill="#67B279" text-decoration="underline">
+                    <tspan x="651" y="230">Learn more</tspan>
+                </text>
+                <rect id="Rectangle-4" fill="#FFF5E1" x="0" y="0" width="235" height="58" rx="29"></rect>
+                <rect id="Rectangle-3" fill="#DF3812" x="189" y="46" width="24" height="4"></rect>
+                <path d="M189,46 L189,112" id="Path-2" stroke="#DF3812" stroke-width="2"></path>
+                <path d="M46,46 L46,181" id="Path-2-Copy-3" stroke="#4D4D4D" stroke-width="2"></path>
+                <path d="M17.2013889,46 L17.2013889,252" id="Path-2-Copy-4" stroke="#67B279" stroke-width="2"></path>
+                <rect id="Rectangle-3-Copy-2" fill="#67B279" x="17" y="46" width="24" height="4"></rect>
+                <text id="“example.org”-—-verb" font-family="SegoeUI-Bold, Segoe UI" font-size="16" font-weight="bold" fill="#4D4D4D">
+                    <tspan x="60" y="161">“example.org”</tspan>
+                    <tspan x="170.054688" y="161" font-family="SegoeUI, Segoe UI" font-weight="normal"> — verbatim text. This text must be present in the address to be blocked</tspan>
+                </text>
+                <rect id="Rectangle-3-Copy" fill="#4D4D4D" x="45" y="46" width="140" height="4"></rect>
+                <text id="||-example.org-^" font-family="SegoeUI-SemiBold, Segoe UI" font-size="24" font-weight="500">
+                    <tspan x="23" y="32" fill="#67B279">||  </tspan>
+                    <tspan x="49.5546875" y="32" fill="#4D4D4D">example.org </tspan>
+                    <tspan x="191.65625" y="32" fill="#DF3812">^</tspan>
+                </text>
+                <text id="^-—-separator-charac" font-family="SegoeUI-Bold, Segoe UI" font-size="16" font-weight="bold">
+                    <tspan x="204" y="92" fill="#DF3812">^</tspan>
+                    <tspan x="215.3125" y="92" font-family="SegoeUI, Segoe UI" font-weight="normal" fill="#4D4D4D"> — separator character mark      </tspan>
+                </text>
+                <text id="Learn-more" font-family="SegoeUI, Segoe UI" font-size="16" font-weight="normal" fill="#67B279" text-decoration="underline">
+                    <tspan x="443" y="92">Learn more</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

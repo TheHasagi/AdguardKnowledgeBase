@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="674px" height="184px" viewBox="0 0 674 184" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Blocking exact address</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-390.000000, -1068.000000)">
+            <g id="Blocking-exact-address" transform="translate(390.000000, 1068.000000)">
+                <text id="|-—-a-pointer-to-the" font-family="SegoeUI-Bold, Segoe UI" font-size="16" font-weight="bold">
+                    <tspan x="33" y="161" fill="#417505">|</tspan>
+                    <tspan x="38.21875" y="161" font-family="SegoeUI, Segoe UI" font-weight="normal" fill="#4D4D4D"> —  a pointer to the beginning or the end of address</tspan>
+                </text>
+                <text id="Learn-more-Copy" font-family="SegoeUI, Segoe UI" font-size="16" font-weight="normal" fill="#67B279" text-decoration="underline">
+                    <tspan x="437" y="161">Learn more</tspan>
+                </text>
+                <rect id="Rectangle-4" fill="#FFF5E1" x="0" y="0" width="289" height="58" rx="29"></rect>
+                <path d="M42,46 L42,112" id="Path-2-Copy-3" stroke="#4D4D4D" stroke-width="2"></path>
+                <path d="M17.2013889,46 L17.2013889,184" id="Path-2-Copy-4" stroke="#417505" stroke-width="2"></path>
+                <rect id="Rectangle-3-Copy-2" fill="#417505" x="17" y="46" width="20" height="4"></rect>
+                <text id="“example.org”-—-verb" font-family="SegoeUI-Bold, Segoe UI" font-size="16" font-weight="bold" fill="#4D4D4D">
+                    <tspan x="56" y="92">“example.org”</tspan>
+                    <tspan x="166.054688" y="92" font-family="SegoeUI, Segoe UI" font-weight="normal"> — verbatim text. This text must be present in the address to be blocked</tspan>
+                </text>
+                <rect id="Rectangle-3-Copy" fill="#4D4D4D" x="41" y="46" width="220" height="4"></rect>
+                <text id="|-http://example.com" font-family="SegoeUI-SemiBold, Segoe UI" font-size="24" font-weight="500">
+                    <tspan x="23" y="32" fill="#417505">|</tspan>
+                    <tspan x="29.6796875" y="32" fill="#4A90E2">  </tspan>
+                    <tspan x="42.875" y="32" fill="#4D4D4D">http://example.com/</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="710px" height="250px" viewBox="0 0 710 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Cosmetic rules</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-390.000000, -3074.000000)">
+            <g id="Cosmetic-rules" transform="translate(390.000000, 3074.000000)">
+                <text id=".banner-—-Selector-b" font-family="SegoeUI-Bold, Segoe UI" font-size="16" font-weight="bold">
+                    <tspan x="219" y="92" fill="#9C1D00">.banner</tspan>
+                    <tspan x="276.25" y="92" font-family="SegoeUI, Segoe UI" font-weight="normal" fill="#4D4D4D"> — Selector based on element type class, or id</tspan>
+                </text>
+                <text id="##-—-Rule-marker-tha" font-family="SegoeUI-Bold, Segoe UI" font-size="16" font-weight="bold">
+                    <tspan x="180" y="161" fill="#09C39A">##</tspan>
+                    <tspan x="198.953125" y="161" font-family="SegoeUI, Segoe UI" font-weight="normal" fill="#4D4D4D"> —  Rule marker that determines the type of the element</tspan>
+                </text>
+                <text id="Learn-more-Copy-2" font-family="SegoeUI, Segoe UI" font-size="16" font-weight="normal" fill="#67B279" text-decoration="underline">
+                    <tspan x="630" y="91">Learn more</tspan>
+                </text>
+                <rect id="Rectangle-4" fill="#FFF5E1" x="0" y="0" width="310" height="58" rx="29"></rect>
+                <path d="M201,46 L201,112" id="Path-2-Copy-3" stroke="#9C1D00" stroke-width="2"></path>
+                <path d="M164,46 L164,184" id="Path-2-Copy-4" stroke="#09C39A" stroke-width="2"></path>
+                <rect id="Rectangle-3-Copy-2" fill="#09C39A" x="164" y="46" width="32" height="4"></rect>
+                <text id="“example.org”-—-the" font-family="SegoeUI-Bold, Segoe UI" font-size="16" font-weight="bold" fill="#4D4D4D">
+                    <tspan x="35.7986111" y="230">“example.org”</tspan>
+                    <tspan x="145.853299" y="230" font-family="SegoeUI, Segoe UI" font-weight="normal"> — the address for which the rule is created</tspan>
+                </text>
+                <text id="Learn-more-Copy" font-family="SegoeUI, Segoe UI" font-size="16" font-weight="normal" fill="#67B279" text-decoration="underline">
+                    <tspan x="478" y="229">Learn more</tspan>
+                </text>
+                <path d="M20,46 L20,250" id="Path-2-Copy-4" stroke="#9013FE" stroke-width="2"></path>
+                <rect id="Rectangle-3-Copy-2" fill="#9013FE" x="19.7986111" y="46" width="139.201389" height="4"></rect>
+                <rect id="Rectangle-3-Copy" fill="#9C1D00" x="200" y="46" width="92" height="4"></rect>
+                <text id="example.org-##-.bann" font-family="SegoeUI-SemiBold, Segoe UI" font-size="24" font-weight="500">
+                    <tspan x="23" y="32" fill="#4D4D4D">example.org </tspan>
+                    <tspan x="165.101562" y="32" fill="#09C39A">##</tspan>
+                    <tspan x="193.484375" y="32" fill="#4D4D4D"> </tspan>
+                    <tspan x="200.082031" y="32" fill="#9C1D00">.banner</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

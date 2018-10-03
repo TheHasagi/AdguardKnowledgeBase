@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="784px" height="270px" viewBox="0 0 784 270" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Basic exception rules</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-390.000000, -1402.000000)">
+            <g id="Basic-exception-rules" transform="translate(390.000000, 1402.000000)">
+                <text id="||-—-matching-the-be" font-family="SegoeUI-Bold, Segoe UI" font-size="16" font-weight="bold">
+                    <tspan x="87" y="161" fill="#67B279">||</tspan>
+                    <tspan x="97.4375" y="161" font-family="SegoeUI, Segoe UI" font-weight="normal" fill="#4D4D4D"> —  matching the beginning of an address. </tspan>
+                    <tspan x="402.9375" y="161" fill="#4D4D4D">http://, https://, ws://, wss://</tspan>
+                    <tspan x="620.96875" y="161" font-family="SegoeUI, Segoe UI" font-weight="normal" fill="#4D4D4D"> at once</tspan>
+                </text>
+                <text id="Learn-more-Copy" font-family="SegoeUI, Segoe UI" font-size="16" font-weight="normal" fill="#67B279" text-decoration="underline">
+                    <tspan x="704" y="161">Learn more</tspan>
+                </text>
+                <rect id="Rectangle-4" fill="#FFF5E1" x="0" y="0" width="347" height="58" rx="29"></rect>
+                <path d="M100,46 L100,112" id="Path-2-Copy-3" stroke="#4D4D4D" stroke-width="2"></path>
+                <path d="M71,46 L71,184" id="Path-2-Copy-4" stroke="#67B279" stroke-width="2"></path>
+                <rect id="Rectangle-3-Copy-2" fill="#67B279" x="71" y="46" width="24" height="4"></rect>
+                <text id="@@-—-a-marker-that-i" font-family="SegoeUI-Bold, Segoe UI" font-size="16" font-weight="bold">
+                    <tspan x="35.7986111" y="230" fill="#9013FE">@@</tspan>
+                    <tspan x="66.3298611" y="230" font-family="SegoeUI, Segoe UI" font-weight="normal" fill="#4D4D4D"> — a marker that is used in rules of exception. </tspan>
+                    <tspan x="35.7986111" y="251" font-family="SegoeUI, Segoe UI" font-weight="normal" fill="#4D4D4D">To turn off filtering for a request, start your rule with this marker</tspan>
+                </text>
+                <text id="Learn-more-Copy" font-family="SegoeUI, Segoe UI" font-size="16" font-weight="normal" fill="#67B279" text-decoration="underline">
+                    <tspan x="514" y="251">Learn more</tspan>
+                </text>
+                <path d="M20,46 L20,270" id="Path-2-Copy-4" stroke="#9013FE" stroke-width="2"></path>
+                <rect id="Rectangle-3-Copy-2" fill="#9013FE" x="19.7986111" y="46" width="46.2013889" height="4"></rect>
+                <text id="“example.org”-—-verb" font-family="SegoeUI-Bold, Segoe UI" font-size="16" font-weight="bold" fill="#4D4D4D">
+                    <tspan x="118" y="92">“example.org”</tspan>
+                    <tspan x="228.054688" y="92" font-family="SegoeUI, Segoe UI" font-weight="normal"> — verbatim text. This text must be present in the address to be blocked</tspan>
+                </text>
+                <rect id="Rectangle-3-Copy" fill="#4D4D4D" x="99" y="46" width="223" height="4"></rect>
+                <text id="@@-||-example.org/ba" font-family="SegoeUI-SemiBold, Segoe UI" font-size="24" font-weight="500">
+                    <tspan x="23" y="32" fill="#9013FE">@@</tspan>
+                    <tspan x="68.8203125" y="32" fill="#4D4D4D"> </tspan>
+                    <tspan x="75.4179688" y="32" fill="#67B279">||</tspan>
+                    <tspan x="88.7773438" y="32" fill="#4D4D4D"> example.org/banner</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
